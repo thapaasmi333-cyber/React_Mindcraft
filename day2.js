@@ -22,4 +22,14 @@ toppers.pop();
 
 console.log(toppers);
 
-//push()
+//sort
+console.log(toppers.sort());
+
+//reverse
+console.log(anime.reverse());
+
+//tosorted
+const months = ["Jan", "Feb", "Mar", "Apr"];
+
+const sorted = months.toSorted();
+console.log(months.toSorted());
