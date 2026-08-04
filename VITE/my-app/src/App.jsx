@@ -1,6 +1,7 @@
 // // import Footer from "./components/footer";
 // // import Navbar from "./components/navbar";
 
+import Colourbutton from "./components/ColorButton/Colorbutton";
 import Counter from "./components/counter/Button";
 
 // // export default function App() {
@@ -63,5 +64,10 @@ import Counter from "./components/counter/Button";
 // export default App;
 
 export default function App() {
-  return <Counter />;
+  return (
+    <>
+      <Counter />
+      <Colourbutton />
+    </>
+  );
 }
