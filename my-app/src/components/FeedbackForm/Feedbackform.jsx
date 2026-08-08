@@ -40,7 +40,8 @@ export default function FeedbackForm() {
         <textarea
           name="comment"
           placeholder="Write ur comment"
-          value={handleChange}
+          value={form.comment}
+          onChange={handleChange}
         />
 
         <br></br>
@@ -51,9 +52,9 @@ export default function FeedbackForm() {
       {feedback && (
         <>
           <h2> FEEDBACK</h2>
-          <p> name: {feedback.name}</p>
-          <p>rating: {feedback.rating}</p>
-          <p>comment: {feedback.comment}</p>
+          <p> Name: {feedback.name}</p>
+          <p>Rating: {feedback.rating}</p>
+          <p>Comment: {feedback.comment}</p>
         </>
       )}
     </>
