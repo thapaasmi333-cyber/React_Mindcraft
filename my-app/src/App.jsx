@@ -1,6 +1,8 @@
 //import Movies from "./components/Movies/Movies";
 
-import BMICal from "./components/BMICal/BMIcal";
+import ShoppingList from "./components/ShoppingList/Shoppinglist";
+
+//import BMICal from "./components/BMICal/BMIcal";
 
 //import FeedbackForm from "./components/FeedbackForm/Feedbackform";
 
@@ -15,7 +17,8 @@ export default function App() {
       {/* <NamePreview /> */}
       {/* <RegisterForm /> */}
       {/* <FeedbackForm /> */}
-      <BMICal />
+      {/* <BMICal /> */}
+      <ShoppingList />
     </>
   );
 }
