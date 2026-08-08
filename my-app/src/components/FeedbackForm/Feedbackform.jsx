@@ -24,19 +24,22 @@ export default function FeedbackForm() {
     <>
       <h1> FEEDBACK FORM</h1>
       <form onSubmit={handleSubmit}>
-        <imput
+        <input
           type="text"
           name="name"
           placeholder="Enter ur name"
           value={form.name}
           onChange={handleChange}
         />
+        <br></br>
 
         <select name="rating" value={form.rating} onChange={handleChange}>
           <option value="1">1 - POOR</option>
           <option value="3">3 - GOOD</option>
           <option value="5">5 - EXCELLENT</option>
         </select>
+        <br></br>
+
         <textarea
           name="comment"
           placeholder="Write ur comment"
