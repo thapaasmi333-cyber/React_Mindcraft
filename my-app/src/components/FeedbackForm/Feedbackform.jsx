@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function FeedbackForm() {
   const [form, setForm] = useState({
-    name: " ",
+    name: "",
     rating: "1",
     comment: "",
   });
