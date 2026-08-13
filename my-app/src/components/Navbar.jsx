@@ -24,6 +24,12 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
+
+          <li>
+            <Link to="/login" className="hover:text-gray-200">
+              Login
+            </Link>
+          </li>
         </ul>
       </nav>
     </>
